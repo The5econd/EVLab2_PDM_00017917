@@ -27,11 +27,11 @@ class MainActivity : AppCompatActivity() {
                 color_de_fondo.background = Color.RED.toDrawable()
                 cont = 1
             }
-            if (cont == 1){
+            if (color_de_fondo.background == Color.RED.toDrawable()){
                 color_de_fondo.background = Color.GREEN.toDrawable()
-                cont = 2
+
             }
-            if (cont == 2){
+            if (color_de_fondo.background == Color.GREEN.toDrawable()){
                 color_de_fondo.background = Color.BLUE.toDrawable()
                 cont = 0
             }
